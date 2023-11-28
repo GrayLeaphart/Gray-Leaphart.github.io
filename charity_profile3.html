@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Help Hub!</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="charity_profile.js"></script>
+</head>
+<body>
+    <div class="chpheadings">
+    <h1>
+       Johns Animal Shelter
+    </h1>
+    <nav class="CS-nav"> 
+     <ul>
+        <li>   
+            <a  class="aaaa"  href="charities.html"> Return To Charities List Page! </a>
+        </li>
+        <li>
+            <a   class="aaaa"  href="index.html"> Return to Home Page!</a>
+        </li>
+     </ul>
+    </nav>
+</div>
+    <div class="chp-para">
+        <p>
+            ""John's Animal Shelter" is a compassionate haven dedicated to rescuing and caring for animals in need. This charitable organization operates with the mission of providing a safe refuge for abandoned, abused, and homeless animals. The shelter serves as a temporary home where animals receive medical attention, nourishment, and love while awaiting adoption into forever loving families. John's Animal Shelter not only emphasizes adoption but also promotes responsible pet ownership. Through the dedication of volunteers, staff, and supporters, this shelter works tirelessly to improve the lives of countless animals and find them loving families they truly deserve." 
+        </p>
+    </div>
+    <div class="Volunteer Now">
+        <button id="vt" class="vol" onclick="showForm()">Volunteer Now!</button>
+
+    <form id="vForm" class="hidden" onsubmit="submitForm(event)">
+        <input type="text" name="name" placeholder="Enter your name">
+        <input type="email" name="email" placeholder="Enter your email">
+        <input type="text" name="name" placeholder="Enter Charity of Choice">
+        <textarea name="message" placeholder="Leave a Note!"></textarea>
+        <button class="Submit" type="submit" >Submit</button>
+        <button class="reset" type="reset">Reset</button>
+    </form>
+
+    <p id="SSubmit" class="hidden2">Successfully Submitted!</p>
+    </div>
+
+    <img class="slideImage3" id="slideImage" src="https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=1200:*" alt="Sliding Image">
+</body>
+</html>

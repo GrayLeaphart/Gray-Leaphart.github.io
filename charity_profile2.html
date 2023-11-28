@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Help Hub!</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="charity_profile.js"></script>
+</head>
+<body>
+<div class="chpheadings">
+    <h1>
+        Saint Judes Children Hospital
+    </h1>
+    <nav class="CS-nav"> 
+     <ul>
+        <li>   
+            <a  class="aaaa"  href="charities.html"> Return To Charities List Page! </a>
+        </li>
+        <li>
+            <a  class="aaaa" href="index.html"> Return to Home Page!</a>
+        </li>
+     </ul>
+    </nav>
+</div>
+<div class="chp-para">
+        <p>
+            "St. Jude Children's Research Hospital stands as a beacon of hope and healing for children battling life-threatening illnesses, primarily cancer. This institution is a testament to the vision that "no child should die in the dawn of life." St. Jude's approach to treatment ensures that families never receive a bill for treatment. Not only provides cutting-edge medical care but also leads the way in research, sharing its discoveries worldwide to advance the fight against childhood cancer and other catastrophic diseases. Through the generosity of donors, fundraisers, and volunteers, St. Jude continues to uphold its promise of giving every child a fighting chance for a healthy future."
+        </p>
+    </div>
+    <div class="Volunteer Now">
+        <button id="vt" class="vol" onclick="showForm()">Volunteer Now!</button>
+
+        <form id="vForm" class="hidden" onsubmit="submitForm(event)">
+            <input type="text" name="name" placeholder="Enter your name">
+            <input type="email" name="email" placeholder="Enter your email">
+            <input type="text" name="name" placeholder="Enter Charity of Choice">
+            <textarea name="message" placeholder="Leave a Note!"></textarea>
+            <button class="Submit" type="submit" >Submit</button>
+            <button class="reset" type="reset">Reset</button>
+        </form>
+    
+        <p id="SSubmit" class="hidden2">Successfully Submitted!</p>
+ </div>
+
+ <img class="slideImage2" id="slideImage" src="https://deadline.com/wp-content/uploads/2021/11/St_Jude_Childrens_Research_Hospital_Logo.jpg">
+</body>
+</html>

@@ -1,0 +1,184 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-color: coral;
+}
+.index-heading{
+    color:aliceblue;
+    text-align: center;
+    min-height:calc(30vh - 30px) ;
+    background-image: url("https://wallpapercave.com/wp/4lImLyA.jpg");
+    background-size: cover;
+  
+}
+.homepage{
+    color:aliceblue;
+    font-size: x-large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    bottom:30px;
+}
+.homepage:hover{
+    color:aquamarine;
+}
+main {
+    padding: 0;
+    border: 0;
+    min-height: calc(100vh - 100px); 
+    background-image: url('https://i.pinimg.com/originals/22/8e/84/228e843eb2f374e08785c3c80991d258.jpg');
+    background-size: cover; 
+}
+.Welcome-Para{
+    color:aliceblue;
+    text-align: center;
+    padding: 20px; 
+    position: absolute; 
+    bottom: 400px;
+    left: 50%; 
+    transform: translateX(-50%);
+    font-size:x-large;
+    background-color: coral; 
+    width: 70%;
+}
+.CharHub{
+    background-image: url("https://wallpapercave.com/wp/4lImLyA.jpg");
+    background-size: cover;
+    min-height:calc(20vh - 30px) ;
+    color:aliceblue;
+}
+.aa{
+    color:aliceblue;
+    font-size: x-large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.aa:hover{
+    color:aquamarine;
+}
+.CL-para{
+    color:aliceblue;
+    font-size:xx-large;
+    background-color: coral;
+}
+.Charity-list{
+    padding: 0;
+    border: 0;
+    min-height: calc(100vh - 100px); 
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-colorful-geometric-silhouette-love-donation-charity-poster-background-material-image_181355.jpg');
+    background-size: cover; 
+}
+.CL-list{
+    color:rgb(41, 26, 71);
+    font-size:xx-large;
+    text-align:center;
+    
+}
+.d{
+    padding-bottom: 80px; 
+}
+
+.aaa{
+    color:rgb(41, 26, 71);
+}
+.aaa:hover{
+    color:coral;
+}
+.chpheadings{
+    color:aliceblue;
+    min-height:calc(20vh - 30px) ;
+    background-image: url("https://wallpapercave.com/wp/4lImLyA.jpg");
+    background-size: cover;
+  
+}
+.aaaa{
+    color:aliceblue;
+}
+.aaaa:hover{
+    color:aquamarine;
+}
+.chp-para{
+    font-size:x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:bisque;
+}
+.formdf{
+    color:aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+}
+.V{
+    font-size: xx-large;
+    color:aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.Submit{
+    width: 100px;
+    height: 30px;
+    background: beige;
+    border-radius: 6px;
+}
+.reset{
+    width: 100px;
+    height: 30px;
+    background: beige;
+    border-radius: 6px;
+}
+input[type=text]{
+    background-color:beige;
+}
+input[type=email]{
+    background-color:beige;
+}
+textarea{
+    background-color:beige;
+    width:250px;
+    height:60px;
+}
+.hidden{
+    display:none;
+}
+.vol{
+    width: 300px;
+    height: 80px;
+    background: beige;
+    border-radius: 6px;
+    font-size:x-large;
+    color: grey;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.hidden2{
+    display:none;
+    color:lime;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    background:tan;
+    width:16.1%;
+}
+.slideImage{
+    position: fixed;
+   top: 50%;
+    right: -50px;
+    transition: right 1s ease-out;
+}
+.slideImage2{
+   position: fixed;
+   top: 50%;
+   right: -50px;
+   transition: right 1s ease-out;
+   height:auto;
+   width: 400px;
+
+}
+.slideImage3{
+    position: fixed;
+    top: 50%;
+    right: -50px;
+    transition: right 1s ease-out;
+    height:auto;
+    width: 350px;
+ 
+ }
+
+
+
+
+
+ 
